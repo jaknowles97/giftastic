@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="text-center">
+        <h1>Giph Barf</h1>
+    </header>
+    <div class="container m-auto">
+        <div class="row justify-content-center" id="default-btns">
+
+        </div>
+        <form>
+            <div class="form-actions">
+                <label for="text-form">Search</label>
+                <input type="text" class="form-control" id="user-search" placeholder="ex. Super Man">
+            </div>
+            <div class="row justify-content-center">
+                <button id="submitBtn" type="submit" class="btn btn-lg m-2">Submit</button>
+            </div>
+        </form>
+
+
+        <h2 class="text-center">My Buttons</h2>
+        <div class="row justify-content-center" id="added-btns">
+            <!-- added btns will go here  -->
+        </div>
+        <div id="fav-btns">
+
+        </div>
+        <div id="savedBtns">
+
+        </div>
+        <div id="display-gifs">
+            <!-- gifs will go here -->
+        </div>
+    </div>
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
